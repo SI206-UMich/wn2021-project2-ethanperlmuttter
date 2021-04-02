@@ -161,7 +161,7 @@ def extra_credit(filepath):
     rsp = requests.get(link)
     soup = BeautifulSoup(rsp.content, 'html.parser')
     """
-    '''
+    
     with open(filepath, 'r') as f:
         soup = BeautifulSoup(f, 'html.parser')
     
@@ -174,7 +174,7 @@ def extra_credit(filepath):
     NERs = re.findall(regex, t)
 
     return NERs
-    '''
+    
     
     
 
