@@ -23,7 +23,7 @@ def get_titles_from_search_results(filename):
     ac = soup.find_all('span', itemprop = "author")
     authors = []
     for a in ac:
-        #authors.append(a.find('span', itemprop = "name"))
+        authors.append(a.find('span', itemprop = "name"))
 
 
     name_list  = []
